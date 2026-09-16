@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { PageHero, HeroPhoto, TextLink, HeroStats } from "@/components/ui";
+import { PageHero, TextLink, HeroStats } from "@/components/ui";
 
 const STORIES = [
   { cat: "International Journey", title: "Sample: The road to Bahrain" },
@@ -10,6 +10,7 @@ const STORIES = [
 export default function Home() {
   return (
     <>
+      <div className="home-hero">
       <PageHero tight={false} title={<>From Mumbai.<br />For India.<br />Built for the world.</>}
         sub="Teqball Mumbai is India's high-performance teqball ecosystem: a national-standard club, a talent pathway, and the training ground behind the country's first Asian Youth Games teqball representative.">
         <div className="cta-row">
@@ -25,8 +26,11 @@ export default function Home() {
           { n: "#86", l: "FITEQ singles world ranking (Vinit Jain)" },
         ]} />
       </PageHero>
-
-      <HeroPhoto src="/images/nationals-nashik-2025.jpg" caption="Teqball Mumbai athletes at the 6th Teqball Open National Championship, Nashik, June 2025." />
+      <figure className="home-hero-visual">
+        <div className="home-hero-img" style={{ backgroundImage: "url('/images/nationals-nashik-2025.jpg')" }} />
+        <figcaption className="photo-credit">Teqball Mumbai athletes at the 6th Teqball Open National Championship, Nashik, June 2025.</figcaption>
+      </figure>
+      </div>
 
       <div className="section">
         <div className="section-label">Who we are</div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CountUp } from "./CountUp";
 
 export function PageHero({ title, sub, tight = true, children }: { title: React.ReactNode; sub?: string; tight?: boolean; children?: React.ReactNode }) {
   return (
@@ -38,7 +39,7 @@ export function HeroStats({ stats }: { stats: { n: string; l: string }[] }) {
   return (
     <div className="hero-stats">
       {stats.map((s) => (
-        <div className="hero-stat" key={s.l}><div className="n">{s.n}</div><div className="l">{s.l}</div></div>
+        <div className="hero-stat" key={s.l}><div className="n"><CountUp value={s.n} /></div><div className="l">{s.l}</div></div>
       ))}
     </div>
   );

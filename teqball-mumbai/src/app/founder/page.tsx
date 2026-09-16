@@ -10,7 +10,7 @@ export default function FounderPage() {
       <div className="section">
         <div className="founder-grid">
           <div className="founder-side">
-            <Image className="founder-photo" src="/images/vinit-ronaldinho-2019.jpg" alt="Vinit Jain with Ronaldinho at the 2019 Asian-Pacific Teqball Cup, China" width={800} height={800} />
+            <Image className="founder-photo" src="/images/vinit-ronaldinho-2019-v2.jpg" alt="Vinit Jain with Ronaldinho at the 2019 Asian-Pacific Teqball Cup, China" width={900} height={1200} />
             <p style={{ fontSize: 11, color: "var(--paper-dim)", marginTop: 8 }}>Vinit Jain with Ronaldinho at the 2019 Asian-Pacific Teqball Cup, China.</p>
             <dl className="vitals">
               <dt>Role</dt><dd>Founder, President &amp; Team India Coach</dd>

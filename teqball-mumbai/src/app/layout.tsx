@@ -4,6 +4,7 @@ import "./globals.css";
 import Topbar from "@/components/Topbar";
 import SideNav from "@/components/SideNav";
 import Footer from "@/components/Footer";
+import Reveal from "@/components/Reveal";
 
 const display = Big_Shoulders({
   subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main>{children}</main>
         </div>
         <Footer />
+        <Reveal />
       </body>
     </html>
   );
