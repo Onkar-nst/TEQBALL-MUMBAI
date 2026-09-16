@@ -1,0 +1,80 @@
+[
+  {
+    "id": "vinitjain-coach",
+    "real": true,
+    "name": "Vinit Jain",
+    "initials": "VJ",
+    "categories": [
+      "mens",
+      "national-champions",
+      "international"
+    ],
+    "tag": "Founder & Team India Coach",
+    "headline": "Founder, Teqball Mumbai · Team India Coach, 2025 Asian Youth Games",
+    "club": "Teqball Mumbai",
+    "achievements": [
+      "Rank 5 - Men's Singles, 1st Asian-Pacific Teqball Cup 2019 (China) - India's first-ever international Teqball match",
+      "Gold - Men's Singles, National Championship 2024 (Mumbai)",
+      "Gold - Men's Singles, National Championship 2023 (Nashik)",
+      "Gold - Men's Doubles with Anas Baig, 1st Teqball Beach National Championship 2021 (India)",
+      "Gold - Men's Singles, 1st Teqball National Championship 2019 (India) (pre-club founding)",
+      "Team India Coach - Asian Youth Games 2025 (Bahrain)",
+      "Rank 9 - Men's Doubles with Glenn Williams, Asian Tour 2023 (Dubai, UAE)",
+      "Champion Captain - Penta TC, Mumbai Teq League Season 7",
+      "Champion Captain - Penta TC, Mumbai Teq League Season 4",
+      "Champion Captain - Penta TC, Mumbai Teq League Season 1"
+    ],
+    "bio": "SAMPLE COPY. This space is reserved for Vinit's founder narrative. See the dedicated Founder page for the full editorial treatment.",
+    "sampleBio": true,
+    "staff": true
+  },
+  {
+    "id": "glennwilliams-coach",
+    "real": true,
+    "name": "Glenn Williams",
+    "initials": "GW",
+    "categories": [
+      "mens",
+      "senior",
+      "international"
+    ],
+    "tag": "Player-Coach",
+    "headline": "Player-Coach, Teqball Mumbai",
+    "club": "Teqball Mumbai",
+    "achievements": [
+      "Rank 9 - Men's Doubles with Vinit Jain, Asian Tour 2023 (Dubai, UAE)",
+      "Rank 5 - Men's Doubles with Vinit Jain, Thailand Tour 2023 (Koh Samui, Thailand)",
+      "Silver - Mixed Doubles with Shiza Khan, 6th Teqball Open National Championship 2025 (Nashik)",
+      "Silver - Men's Doubles with Vinit Jain, National Championship 2024 (Mumbai)",
+      "Silver - Mixed Doubles with Shiza Khan, National Championship 2024 (Mumbai)",
+      "Silver - Men's Doubles with Vinit Jain, National Championship 2023 (Nashik)"
+    ],
+    "bio": "SAMPLE COPY. Space reserved for this athlete's own words on their Teqball Mumbai journey.",
+    "sampleBio": true,
+    "staff": true
+  },
+  {
+    "id": "libinvaliyavila-coach",
+    "real": true,
+    "name": "Libin Valiyavila",
+    "initials": "LV",
+    "categories": [
+      "mens",
+      "senior",
+      "international"
+    ],
+    "tag": "Player-Coach",
+    "headline": "Player-Coach, Teqball Mumbai",
+    "club": "Teqball Mumbai",
+    "achievements": [
+      "Rank 9 - Men's Doubles with Pratham Kedia, Asian Tour 2023 (Dubai, UAE)",
+      "Champion Captain - Bulldogs TC, Mumbai Teq League Season 6",
+      "Silver - Men's Doubles with Glenn Williams, Senior National Teqball Championship 2022 (Erode)",
+      "3rd in trials - Men's Doubles with Glenn Williams, Asian Games Selection Trials 2026 (Nashik)"
+    ],
+    "bio": "SAMPLE COPY. Space reserved for this athlete's own words on their Teqball Mumbai journey.",
+    "sampleBio": true,
+    "note": "Added from championship results. Full roster status to confirm with Teqball Mumbai.",
+    "staff": true
+  }
+]
