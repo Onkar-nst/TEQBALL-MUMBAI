@@ -11,11 +11,6 @@ export default function SponsorsPage() {
         <div className="partner-grid"><div className="partner-card"><h3>Royal Sports</h3><div className="role">Kit Partner</div><p>Description and key initiatives: needs confirmation from Teqball Mumbai before publishing.</p></div></div>
         <div className="tier-label">Performance Partner</div>
         <div className="partner-grid"><div className="partner-card"><h3>Max Protein</h3><div className="role">Protein Partner</div><p>Description and key initiatives: needs confirmation from Teqball Mumbai before publishing.</p></div></div>
-        <div className="tier-label">Club Partners</div>
-        <div className="partner-grid">
-          <div className="partner-card"><h3>Mumbai City FC</h3><div className="role">Partner</div><p>Nature of collaboration: needs confirmation from Teqball Mumbai before publishing.</p></div>
-          <div className="partner-card"><h3>All Stars FC</h3><div className="role">Partner</div><p>Nature of collaboration: needs confirmation from Teqball Mumbai before publishing.</p></div>
-        </div>
       </div>
       <div className="closing-band">
         <h2>Partner with Teqball Mumbai</h2>
