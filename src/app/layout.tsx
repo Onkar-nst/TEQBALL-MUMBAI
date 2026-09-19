@@ -20,7 +20,10 @@ const body = Inter({
 });
 
 export const metadata: Metadata = {
-  title: { default: "Teqball Mumbai", template: "%s · Teqball Mumbai" },
+  title: {
+    default: "Teqball Mumbai — We don’t just teach Teqball. We build the pathway from the first touch to the international stage.",
+    template: "%s · Teqball Mumbai",
+  },
   description:
     "Teqball Mumbai is India's high-performance teqball ecosystem: a national-standard club, a talent pathway, and the training ground behind the country's first Asian Youth Games teqball representative.",
 };

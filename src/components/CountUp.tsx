@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const DURATION = 1400;
-const easeOut = (t: number) => 1 - Math.pow(1 - t, 3);
+const easeOut = (t: number) => 1 - Math.pow(1 - t, 2);
 
 // Animates the numeric part of a stat string (e.g. "300+", "#86", "3×", "2021"),
 // preserving any prefix/suffix. Starts when the element scrolls into view.
@@ -24,7 +24,8 @@ export function CountUp({ value }: { value: string }) {
       const start = performance.now();
       const tick = (now: number) => {
         const p = Math.min((now - start) / DURATION, 1);
-        const cur = Math.round(easeOut(p) * target);
+        // floor so every counter lands on its final value only at p === 1, keeping them in sync
+        const cur = p < 1 ? Math.floor(easeOut(p) * target) : target;
         setDisplay(`${prefix}${useCommas ? cur.toLocaleString("en-IN") : cur}${suffix}`);
         if (p < 1) raf = requestAnimationFrame(tick);
       };

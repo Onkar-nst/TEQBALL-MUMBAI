@@ -17,13 +17,12 @@ export default function AchievementsLedger() {
       </div>
       <div className="table-wrap">
         <table>
-          <thead><tr><th>Event</th><th>Discipline</th><th>Athlete(s)</th><th>Location</th><th>Date</th><th>Result</th><th>Type</th><th>Source</th></tr></thead>
+          <thead><tr><th>Event</th><th>Discipline</th><th>Athlete(s)</th><th>Location</th><th>Date</th><th>Result</th><th>Type</th></tr></thead>
           <tbody>
             {rows.map((r, i) => (
               <tr key={i} data-type={r.type}>
                 <td className="event-name">{r.event}</td><td>{r.discipline}</td><td>{r.athlete}</td><td>{r.location}</td><td>{r.date}</td>
                 <td>{r.result}</td><td><span className={`badge-type ${r.type}`}>{TYPE_LABELS[r.type] || r.type}</span></td>
-                <td className="source-cell">{r.source}</td>
               </tr>
             ))}
           </tbody>

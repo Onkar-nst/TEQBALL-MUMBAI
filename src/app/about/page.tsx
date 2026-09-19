@@ -16,17 +16,33 @@ export default function AboutPage() {
     <>
       <PageHero title="About" sub="What Teqball Mumbai is, why it exists, and where it's going." />
       <div className="section">
-        <div className="section-label">Our story</div>
+        <h2>Our story</h2>
         <p className="lede">Teqball Mumbai was founded by Vinit Jain in 2021, two years after he became the first Indian to win an international Teqball match, at the 2019 Asian-Pacific Teqball Cup in China. The full origin story, in Vinit&apos;s own words, is still to come.</p>
       </div>
       <div className="section">
-        <div className="section-label">Mission</div>
+        <h2>Mission</h2>
         <ul className="deflist">
           <li><b>Develop athletes</b>: capable of competing at international standards, from grassroots to elite level.</li>
           <li><b>Create opportunities</b>: competitive pathways through district, national and international competitions.</li>
           <li><b>Build a sustainable ecosystem</b>: club, league, sponsors and community working as one.</li>
           <li><b>Represent India internationally</b>: putting Indian athletes on Asian and world stages.</li>
           <li><b>Grow the grassroots</b>: bringing teqball to schools, colleges and new communities.</li>
+        </ul>
+      </div>
+      <div className="section">
+        <h2>Vision for India</h2>
+        <ul className="deflist">
+          <li><b>Build India</b> into a global Teqball powerhouse</li>
+          <li><b>Create a pipeline</b>: a strong grassroots talent pipeline</li>
+          <li><b>Develop athletes</b>: world-class Indian athletes</li>
+          <li><b>Go international</b>: increase India&apos;s presence in international competitions</li>
+          <li><b>Build hubs</b>: Teqball hubs across major Indian cities</li>
+          <li><b>Develop professionals</b>: coaches, referees &amp; support teams</li>
+          <li><b>Create opportunities</b>: sustainable opportunities for Teqball athletes</li>
+          <li><b>Grow the game</b>: across schools, colleges &amp; communities</li>
+          <li><b>Build a pathway</b>: from grassroots to international level</li>
+          <li><b>Sustain the ecosystem</b>: self-sustaining for future generations</li>
+          <li><b>Discover talent. Develop champions. Represent India.</b></li>
         </ul>
       </div>
       <div className="section">

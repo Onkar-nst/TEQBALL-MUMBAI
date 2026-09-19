@@ -22,7 +22,7 @@ export default function Home() {
           { n: "2021", l: "Founded by Vinit Jain" },
           { n: "7", l: "Mumbai Teq League seasons completed" },
           { n: "300+", l: "Athletes developed since founding" },
-          { n: "#86", l: "FITEQ singles world ranking (Vinit Jain)" },
+          { n: "12+", l: "International tours" },
         ]} />
       </PageHero>
 

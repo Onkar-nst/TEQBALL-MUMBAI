@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import MobileNav from "./MobileNav";
 
 export default function Topbar() {
   return (
@@ -9,7 +10,7 @@ export default function Topbar() {
           <Image className="wordmark-logo" src="/images/crest.png" alt="Teqball Mumbai crest" width={600} height={600} priority />
           <div className="wordmark">TEQBALL <span>MUMBAI</span></div>
         </Link>
-        <div className="concept-tag">v2 · built from the club&apos;s master database</div>
+        <MobileNav />
       </div>
     </header>
   );

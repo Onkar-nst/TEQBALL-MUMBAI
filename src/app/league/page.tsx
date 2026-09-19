@@ -22,7 +22,9 @@ export default function LeaguePage() {
             </tbody>
           </table>
         </div>
-        <p style={{ marginTop: 20 }}>Kit Partner: <b>Royal Sports</b></p>
+        <p style={{ marginTop: 20, marginBottom: 0 }}>Kit Partner: <b>Royal Sports</b></p>
+        <p style={{ margin: "6px 0 0" }}>Title Sponsor: <b>Max Protein</b></p>
+        <p style={{ margin: "6px 0 0" }}>Recovery Partner: <b>Upurfit</b></p>
         <div className="cta-row"><Link className="btn btn-primary" href="/join">Register interest for Season 8</Link></div>
       </div>
     </>
