@@ -29,8 +29,9 @@ export default function Home() {
       <HeroPhoto src="/images/nationals-nashik-2025.jpg" caption="Teqball Mumbai athletes at the 6th Teqball Open National Championship, Nashik, June 2025." />
 
       <div className="section">
-        <div className="section-label">Who we are</div>
+        <h2>Who we are</h2>
         <p className="lede">Teqball Mumbai is a high-performance teqball club and ecosystem founded by Vinit Jain in 2021, running an athlete development pathway, the Mumbai Teq League, and the training ground behind India&apos;s Asian Youth Games teqball representative, built around teqball, the football-based table sport now on the programme at major multi-sport games across Asia.</p>
+        <div className="cta-row" style={{ marginTop: 22 }}><Link className="btn btn-primary" href="/about">Read more</Link></div>
       </div>
 
       <div className="section">
